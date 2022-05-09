@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('/Users/taylorpangilinan/Desktop/100daysofcode/youtube/countdown/countdown_timer/img/adam-chang-IWenq-4JHqo-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: 2em;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.big-text {
+    font-size: 4.5em;
+    line-height: 1;
+    margin: 0 .5em;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5em;
+}
